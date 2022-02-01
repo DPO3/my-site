@@ -14,6 +14,7 @@
 }
 
 body { 
+
   background-color: rgb(184, 228, 241);
   background: rgb(184, 228, 241);
   background: linear-gradient(
@@ -22,18 +23,20 @@ body {
     rgb(122, 222, 253) 50%,
     rgb(183, 236, 252) 90%
   );
-  font-size: 18px;
+  font-size: 20px;
   /* background-image: url("img/772-7722783_power-button-png-removebg-preview.png"); */
   /* background-repeat: no-repeat;
   background-size: 120px;
   background-position: 5% 150px;
   background-attachment: fixed; */
+  font-style: normal;
+  
   scroll-behavior: smooth;
 }
 div {
   /* width: 100%; */
   /* height: auto; */
-  background-color: white;
+  background-color: rgb(47, 0, 255);
   margin: 25px;
   padding: 30px;
 }
@@ -79,7 +82,7 @@ div img {
   border-radius: 15px;
   font-size: 40px;
   font-family: "Alumni Sans", sans-serif;
-  color: rgb(245, 235, 235);
+  color: rgb(0, 30, 165);
   cursor: pointer;
   transition: 0.5s; /* анимация простейшая */
 }
@@ -103,8 +106,6 @@ div img {
   margin: 15px;
 }
 
-.linkLogo {
-}
 
 nav ul {
   display: flex;
@@ -118,11 +119,11 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 40px;
   font-family: "Alumni Sans", sans-serif;
   text-decoration: none;
-  transition: 1s; /* анимация простейшая */
+  transition: 0.5s; /* анимация простейшая */
 }
 
 nav ul li a:hover {
